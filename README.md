@@ -12,9 +12,19 @@ a blank deno blog!
 6. Type `open .` to open to that location in Finder (macOS), or `ii .` to open it in Windows Explorer.
 7. Type `code .` to open that folder in VS Code (you might need to add `code` to `PATH`).
 8. Type `deno task dev` to start serving your blog locally.  Navigate to the URL in a browser to view it.  The server will automatically update the page when you make changes to the blog, although you may need to refresh.
-9. Make changes to the blog.
-10. Push to the github repo with:
+9. Make changes to the blog, and save your files.
+10. Push to those changes to the GitHub repository with:
     -  `git add .`
     -  `git commit -m 'description of changes'`
     -  `git push`
-11. Go to [deno deploy](https://deno.com/deploy), and link your github repo to make it live.
+11. Sign into [deno deploy](https://deno.com/deploy) with your GitHub credentials.
+12. Click "New Project"
+13. Click on "Select Github repository"
+14. Select your GitHub username.
+15. Select the repository containing your blog.
+16. Click "Select production branch".
+17. Select "main".
+18. Select "automatic".
+19. Select "main.tsx".
+20. Click "Link". 
+21. Click "View" to go to the URL where your blog is now live.
